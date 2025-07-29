@@ -5,7 +5,7 @@ import { faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home() {
   return (
-     <section>
+     <section className='home-section'>
         <div className='d-flex flex-row align-items-center justify-content-center text-center'>
                    <img src={ProfileImage} alt="Profile" className='img-fluid rounded-circle me-3 border border-white' />
                    <div className='p-0 m-0'>
