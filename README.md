@@ -9,7 +9,7 @@ A personal website showcasing my skills, projects, and what I’m capable of as 
 
 ## 📝 License
 
-This project is licensed under the MIT License – see the [LICENSE](/LICENSE) file for details.
+This project is licensed under the MIT License – see the LICENCE file for details.
 
 ## 🙋‍♂️ Author
 
