@@ -1,4 +1,4 @@
-import ProfileImage from './assets/profile.jpg'
+import ProfileImage from '../assets/profile.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faFileLines } from '@fortawesome/free-solid-svg-icons'

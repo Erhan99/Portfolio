@@ -1,8 +1,8 @@
-import TechnologyBadge from "./components/TechnologyBadge";
+import TechnologyBadge from "./TechnologyBadge";
 
 export default function Technologies() {
   return (
-    <section className="container">
+    <section>
         <h2 className="title fw-bold">Current Technologies</h2>
          <p className="text-white">I am proficient in a wide range of Technologies. These are some of the latest Technologies I have worked with. </p>
         

@@ -1,7 +1,9 @@
-import Home from "./Home"
-import Technologies from "./Technologies"
-import Projects from "./Projects"
+import Home from "./components/Home"
+import About from "./components/About"
+import Technologies from "./components/Technologies"
+import Projects from "./components/Projects"
 import {Scrollbar} from 'smooth-scrollbar-react';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,9 +16,13 @@ function App() {
            continuousScrolling={true}
            style={{ height: "100vh" }}
         >
-          <Home />
-          <Technologies />
-          <Projects />
+           <Home />
+           <div className="container mt-5">
+               <About />
+               <Technologies />
+               <Projects />
+           </div>
+            <Footer />
         </Scrollbar>
     </div>
   )

@@ -162,7 +162,6 @@ section {
    aspect-ratio: 16 / 9;
    overflow: hidden;
    border-radius: 12px;
-   border: 1px solid white;
 }
 
 .project-image {
@@ -211,4 +210,122 @@ section {
 .explore:hover {
    background-color: #4A6BBE;
    transition: background-color 0.3s ease;
+}
+
+footer {
+   border-top: 2px solid #333;
+   background-color: #1A1A1A;
+   padding: 20px;
+   width: 100%;
+   position: relative;
+   bottom: 0;
+}
+
+@media (max-width: 768px) {
+   .home-section {
+      height: auto;
+      padding: 20px;
+   }
+
+   .title2 {
+      font-size: 50px;
+   }
+
+   .project {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .tech-badge {
+      width: 100%;
+      min-width: unset;
+   }
+}
+
+@media (max-width: 576px) {
+   .title2 {
+      font-size: 40px;
+   }
+
+   .project {
+      width: 100%;
+      margin-bottom: 20px;
+   }
+
+   .tech-badge {
+      width: 100%;
+      min-width: unset;
+   }
+
+   .explore {
+      font-size: 0.7rem;
+      padding: 4px 12px;
+   }
+
+   .project-text {
+      font-size: 0.8rem;
+   }
+
+   .project-tag {
+      font-size: 0.7rem;
+   }
+
+   .contact-icon {
+      font-size: 24px;
+   }
+
+   .tech-icon {
+      width: 40px;
+      height: 40px;
+   }
+
+   .tech-name {
+      font-size: 0.9rem;
+   }
+
+   .tech-subtitle {
+      font-size: 0.6rem;
+   }
+
+   .project-image {
+      height: 200px;
+   }
+
+   .project-text {
+      font-size: 0.7rem;
+   }
+
+   .project-tag {
+      font-size: 0.6rem;
+   }
+
+   .project {
+      padding: 10px;
+   }
+
+   .project:hover {
+      transform: translateY(-10px);
+      transition: all 0.2s ease;
+   }
+
+   .project-image {
+      height: 150px;
+   }
+
+   .image-wrapper {
+      margin-bottom: 0px;
+   }
+
+   .project-text {
+      font-size: 0.7rem;
+   }
+
+   .project-tag {
+      font-size: 0.6rem;
+   }
+
+   .explore {
+      font-size: 0.7rem;
+      padding: 4px 12px;
+   }
 }

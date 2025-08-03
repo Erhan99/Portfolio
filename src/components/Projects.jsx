@@ -1,7 +1,7 @@
-import MySocial from './assets/MySocial_Mockup.png';
-import BudgetTracker from './assets/BudgetTracker_Mockup.png';
-import AICode from './assets/AICode_Mockup.png';
-import Project from './components/Project.jsx';
+import MySocial from '../assets/MySocial_Mockup.png';
+import BudgetTracker from '../assets/BudgetTracker_Mockup.png';
+import AICode from '../assets/AICode_Mockup.png';
+import Project from './Project.jsx';
 
 export default function Projects() { 
    return (
@@ -15,6 +15,7 @@ export default function Projects() {
                title="MySocial"
                tags={["C#", "ASP.NET", "SQL Server", "Entity Framework", "Javascript", "Bootstrap"]}
                text="A social media platform built with C# and ASP.NET."
+               url="https://github.com/Erhan99/MySocial"
             />
 
             <Project
@@ -22,6 +23,7 @@ export default function Projects() {
                title="Budget Tracker"
                tags={["Kotlin", "Java", "Jetpack Compose", "PHP", "MySQL"]}
                text="A budgeting application built with Kotlin and Jetpack Compose."
+               url="https://github.com/Erhan99/AWM-BudgetTracker-v2"
             />
 
             <Project
