@@ -15,7 +15,7 @@ export default function Footer() {
                        <a href="mailto:erhan9manav@gmail.com" className='contact-icon'>
                           <FontAwesomeIcon icon={faEnvelope} color='white'/>
                       </a>
-                      <a href="/CV_Erhan_Manav.pdf" download className='contact-icon'>
+                      <a href="/CV_ErhanManav.pdf" download className='contact-icon'>
                           <FontAwesomeIcon icon={faFileLines} color='white'/>
                        </a>
                     </div>
